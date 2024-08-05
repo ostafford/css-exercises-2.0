@@ -29,6 +29,8 @@ body {
   display: flex;
 }
 
+/* Modal was correct with style properties */
+
 .icon {
   color: royalblue;
   font-size: 26px;
@@ -41,6 +43,11 @@ body {
   align-items: center;
   justify-content: center;
 }
+/* 'flex-shrink was used to prevent the .icon from getting smaller
+i was trying to make it bigger because it was getting smashed. 
+
+NOTE: Remember that shrink can prevent from something and not always thinking
+that you have to enhance something.*/
 
 section {
   display: flex;
@@ -57,6 +64,9 @@ section {
   font-weight: bold;
   font-size: larger;
 }
+
+/* Solution was different from answers however this was due to
+more containers created. That being said the outcome was the same */
 
 .close-button {
   background: #eee;
