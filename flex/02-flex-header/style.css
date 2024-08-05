@@ -37,3 +37,6 @@ a {
   /* this removes the line under the links */
   text-decoration: none;
 }
+
+/* All answers were correct except for adding margin value to 0
+for 'ul' element. By default there was a 13px top and bottom value.  */
