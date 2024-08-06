@@ -18,6 +18,8 @@ body {
   padding-left: 16px;
 }
 
+/* Had 'align-content' instead of 'align-items'  */
+
 .footer {
   height: 72px;
   background: #eee;
@@ -27,9 +29,20 @@ body {
   align-content: center;
 }
 
+/* Interesting for both header and footer aligning its own display flex property
+instead of relying on its parent property. That being said i was able to achieve the 
+same result.  */
+
+/* Its interesting to see when and where its best to use the most or least amount of styling code */
+
 .main {
   display: flex;
 }
+
+/* I initially had the flex property here however
+I looked at the expected png file and felt that the ratio 
+was off so i took it out even though when re-sizing the 
+footer is still at the bottom 'flex: 1' will push it to the height viewpoint */
 
 .sidebar {
   width: 300px;
@@ -73,3 +86,5 @@ ul {
   height: 200px;
   padding: 12px;
 }
+
+/* Card was correct however didn't require the height set.  */
