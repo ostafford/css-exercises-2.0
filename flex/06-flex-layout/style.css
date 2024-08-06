@@ -63,3 +63,7 @@ a {
 .footer {
   background-color: #eeeeee;
 }
+
+/* Solution is different to my however outcome is the same. 
+That being said the difference here is that i used Space-between value
+instead of the flex property to make the footer stay at the bottom.*/
